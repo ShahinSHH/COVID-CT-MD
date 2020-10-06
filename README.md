@@ -52,6 +52,7 @@ The longest time period between the scanner auto-calibration and the study in th
 <i>"statistical_analysis.py"</i> is the code to re-produce the statistical analysis provided in the <a href="https://arxiv.org/abs/2009.14623">data description</a>.
 
 <h4>Requirements:</h4>
+
 * pydicom
 * pandas
 * seaborn
