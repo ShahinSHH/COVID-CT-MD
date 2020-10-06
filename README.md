@@ -5,6 +5,8 @@ The COVID-CT-MD dataset contains volumetric chest CT scans of <b>171 patients po
 
 COVID-CT-MD dataset is accessible through Figshare: <a href="https://figshare.com/s/c20215f3d42c98f09ad0">https://figshare.com/s/c20215f3d42c98f09ad0</a>
 
+The detailed desription of the dataset is available at <a href="https://arxiv.org/abs/2009.14623">https://arxiv.org/abs/2009.14623</a>
+
 To respect the patients’ privacy and comply with the Ethical codes and policies, all the CT studies in the COVID-CT-MD dataset are de-identified and only gender and age of the patients are preserved in the dataset. The brief distribution of the COVID-CT-MD dataset is shown in the following table:
 
 | Table | Cases | Sex | Age(year) |
@@ -41,3 +43,6 @@ Normal subjects are placed in separate folders, within which patients are arrang
 
 ## Technical Validation
 The longest time period between the scanner auto-calibration and the study in the COVID-CT-MD dataset is 1 day, which ensures calibrated and accurate performance of the scanning device. Furthermore, there is an annual thorough quality control that ensures the absence of ring artifacts in the acquired CT scans.
+
+## Statistical Analysis
+<i>"statistical_analysis.py"</i> is the code to re-produce the statistical analysis provided in the <a href="https://arxiv.org/abs/2009.14623">data desription</a>
