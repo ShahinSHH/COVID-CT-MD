@@ -46,3 +46,18 @@ The longest time period between the scanner auto-calibration and the study in th
 
 ## Statistical Analysis
 <i>"statistical_analysis.py"</i> is the code to re-produce the statistical analysis provided in the <a href="https://arxiv.org/abs/2009.14623">data desription</a>
+
+## Citation
+If you found this dataset and the related data descritipon useful in your research, please consider citing:
+
+```
+@article{Afshar2020,
+arxivId = {2009.14623},
+author = {Afshar, Parnian and Heidarian, Shahin and Enshaei, Nastaran and Naderkhani, Farnoosh and Rafiee, Moezedin Javad and Oikonomou, Anastasia and Fard, Faranak Babaki and Samimi, Kaveh and Plataniotis, Konstantinos N. and Mohammadi, Arash},
+eprint = {2009.14623},
+month = {sep},
+title = {{COVID-CT-MD: COVID-19 Computed Tomography (CT) Scan Dataset Applicable in Machine Learning and Deep Learning}},
+url = {http://arxiv.org/abs/2009.14623},
+year = {2020}
+}
+```
