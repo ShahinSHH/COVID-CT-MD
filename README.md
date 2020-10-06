@@ -17,6 +17,8 @@ To respect the patients’ privacy and comply with the Ethical codes and policie
 
 <img src="https://github.com/ShahinSHH/COVID-CT-MD/blob/main/Figures/slices.jpg" width="400" height="400" />
 
+We're working closely with our collaborators in medical centers to provide more number of CT scans to introduce a larger Multi-center COVID-19 dataset to be used for a more extensive area of research. This dataset will be available for the public use in the near future.
+
 ## Data Structure
 The hierarchical list below shows the structure of the COVID-CT-MD dataset shared through Figshare . COVID-19, CAP and
 Normal subjects are placed in separate folders, within which patients are arranged in folders, followed by CT scan slices in DICOM format.
