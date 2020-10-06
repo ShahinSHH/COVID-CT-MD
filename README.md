@@ -5,7 +5,13 @@ The COVID-CT-MD dataset contains volumetric chest CT scans of <b>171 patients po
 
 COVID-CT-MD dataset is accessible through Figshare: <a href="https://figshare.com/s/c20215f3d42c98f09ad0">https://figshare.com/s/c20215f3d42c98f09ad0</a>
 
-To respect the patients’ privacy and comply with the Ethical codes and policies, all the CT studies in the COVID-CT-MD dataset are de-identified.
+To respect the patients’ privacy and comply with the Ethical codes and policies, all the CT studies in the COVID-CT-MD dataset are de-identified and only gender and age of the patients are preserved in the dataset. The brief distribution of the COVID-CT-MD dataset is shown in the following table:
+
+| Table | Cases | Sex | Age(year) |
+| ----- | ---------------- | ------- | --- |
+| COVID-19 | 171 | 108 M/63 F | 51.6 ± 14.6 |
+| CAP | 60 | 35 M/25 F | 57.7 ± 21.7 |
+| Normal | 76 | 40 M/36 F | 43.4 ± 14.1 |
 
 ## Data Structure
 The hierarchical list below shows the structure of the COVID-CT-MD dataset shared through Figshare . COVID-19, CAP and
