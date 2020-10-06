@@ -8,8 +8,20 @@ COVID-CT-MD dataset is accessible through Figshare: <a href="https://figshare.co
 To respect the patients’ privacy and comply with the Ethical codes and policies, all the CT studies in the COVID-CT-MD dataset are de-identified.
 
 ## Data Structure
-The following figure shows the structure of the COVID-CT-MD dataset shared through Figshare . COVID-19, CAP and
+The hierarchical list below shows the structure of the COVID-CT-MD dataset shared through Figshare . COVID-19, CAP and
 Normal subjects are placed in separate folders, within which patients are arranged in folders, followed by CT scan slices in DICOM format.
+
+* Main Folder
+  * COVID-19 subjects
+    * Subject-ID
+      * Slice-ID.dcm
+  * CAP subjects
+    * Subject-ID
+      * Slice-ID.dcm
+  * Normal subjects
+    * Subject-ID
+      * Slice-ID.dcm
+  
 
 ## Labels
 * <b>Index.csv</b> : specifies the patients having slice-level and lobe-level labels. The indices given to patients in “Index.csv” file are then used in “Slice-level-labels.npy” and “Lobe-level-labels.npy” to indicate the slice and lobe labels.
@@ -20,7 +32,6 @@ Normal subjects are placed in separate folders, within which patients are arrang
   * 2 : Right Lower Lobe (RLL)
   * 3 : Right Middle Lobe (RML)
   * 4 : Right Upper Lobe (RUL)
-![Roadmap](Figures/data-structure.png)
 
 ## Technical Validation
 The longest time period between the scanner auto-calibration and the study in the COVID-CT-MD dataset is 1 day, which ensures calibrated and accurate performance of the scanning device. Furthermore, there is an annual thorough quality control that ensures the absence of ring artifacts in the acquired CT scans.
