@@ -15,6 +15,8 @@ To respect the patients’ privacy and comply with the Ethical codes and policie
 | CAP | 60 | 35 M/25 F | 57.7 ± 21.7 |
 | Normal | 76 | 40 M/36 F | 43.4 ± 14.1 |
 
+<img src="" width="200" height="400" />
+
 ## Data Structure
 The hierarchical list below shows the structure of the COVID-CT-MD dataset shared through Figshare . COVID-19, CAP and
 Normal subjects are placed in separate folders, within which patients are arranged in folders, followed by CT scan slices in DICOM format.
