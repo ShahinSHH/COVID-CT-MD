@@ -47,7 +47,7 @@ Normal subjects are placed in separate folders, within which patients are arrang
 The longest time period between the scanner auto-calibration and the study in the COVID-CT-MD dataset is 1 day, which ensures calibrated and accurate performance of the scanning device. Furthermore, there is an annual thorough quality control that ensures the absence of ring artifacts in the acquired CT scans.
 
 ## Statistical Analysis
-<i>"statistical_analysis.py"</i> is the code to re-produce the statistical analysis provided in the <a href="https://arxiv.org/abs/2009.14623">data desription</a>
+<i>"statistical_analysis.py"</i> is the code to re-produce the statistical analysis provided in the <a href="https://arxiv.org/abs/2009.14623">data description</a>
 
 ## Citation
 If you found this dataset and the related data descritipon useful in your research, please consider citing:
