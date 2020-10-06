@@ -20,7 +20,7 @@ Normal subjects are placed in separate folders, within which patients are arrang
   * 2 : Right Lower Lobe (RLL)
   * 3 : Right Middle Lobe (RML)
   * 4 : Right Upper Lobe (RUL)
-![Roadmap](COVID-CAPS/model.jpg)
+![Roadmap](Figures/data-structure.png)
 
 ## Technical Validation
 The longest time period between the scanner auto-calibration and the study in the COVID-CT-MD dataset is 1 day, which ensures calibrated and accurate performance of the scanning device. Furthermore, there is an annual thorough quality control that ensures the absence of ring artifacts in the acquired CT scans.
