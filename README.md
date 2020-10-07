@@ -15,13 +15,11 @@ To respect the patients’ privacy and comply with the Ethical codes and policie
 | CAP | 60 | 35 M/25 F | 57.7 ± 21.7 |
 | Normal | 76 | 40 M/36 F | 43.4 ± 14.1 |
 
-<img src="https://github.com/ShahinSHH/COVID-CT-MD/blob/main/Figures/slices.jpg" width="400" height="400" />
-
 We're working closely with our collaborators in medical centers to provide more number of CT scans to introduce a larger Multi-center COVID-19 dataset to be used for a more extensive area of research. This dataset will be available for the public use in the near future.
 
-## Data Structure
+## Data Structure and Sample
 The hierarchical list below shows the structure of the COVID-CT-MD dataset shared through Figshare . COVID-19, CAP and
-Normal subjects are placed in separate folders, within which patients are arranged in folders, followed by CT scan slices in DICOM format.
+Normal subjects are placed in separate folders, within which patients are arranged in folders, followed by CT scan slices in DICOM format. <b>A small sample of the dataset</b> is available in the "Sample data" folder including DICOM files for each category to provide a better insight of the dataset.
 
 * Main Folder
   * COVID-19 subjects
@@ -34,6 +32,7 @@ Normal subjects are placed in separate folders, within which patients are arrang
     * Subject-ID
       * Slice-ID.dcm
   
+<img src="https://github.com/ShahinSHH/COVID-CT-MD/blob/main/Figures/slices.jpg" width="400" height="400" />
 
 ## Labels
 * <b>Index.csv</b> : specifies the patients having slice-level and lobe-level labels. The indices given to patients in “Index.csv” file are then used in “Slice-level-labels.npy” and “Lobe-level-labels.npy” to indicate the slice and lobe labels.
