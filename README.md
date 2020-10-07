@@ -18,7 +18,7 @@ To respect the patients’ privacy and comply with the Ethical codes and policie
 We're working closely with our collaborators in medical centers to provide more number of CT scans to introduce a larger Multi-center COVID-19 dataset to be used for a more extensive area of research. This dataset will be available for the public use in the near future.
 
 ## Data Structure and Sample
-<b>A small sample of the dataset</b> is available in the "Sample data" folder including DICOM files for each category to provide a quick insight of the dataset.
+<b>A small sample of the dataset</b> is available in the "Sample data" folder including DICOM files of one patient in each category to provide a quick insight of the dataset.
 
 The hierarchical list below shows the structure of the COVID-CT-MD dataset shared through Figshare . COVID-19, CAP and
 Normal subjects are placed in separate folders, within which patients are arranged in folders, followed by CT scan slices in DICOM format.
