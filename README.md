@@ -20,6 +20,7 @@ We're working closely with our collaborators in medical centers to provide more 
 ## Data Structure and Sample
 The hierarchical list below shows the structure of the COVID-CT-MD dataset shared through Figshare . COVID-19, CAP and
 Normal subjects are placed in separate folders, within which patients are arranged in folders, followed by CT scan slices in DICOM format.
+
 <b>A small sample of the dataset</b> is available in the "Sample data" folder including DICOM files for each category to provide a quick insight of the dataset.
 
 * Main Folder
