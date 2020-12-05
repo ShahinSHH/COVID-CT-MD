@@ -46,7 +46,7 @@ Normal subjects are placed in separate folders, within which patients are arrang
   * 3 : Right Middle Lobe (RML)
   * 4 : Right Upper Lobe (RUL)
 
-<h4>IMPORTANT:</h4> Slices should be sorted based on the slice location parameter (Z-axis) which is accessible in DICOM files. In other words, the order of the .dcm files of a patient isn't necessarily the correct order of slices and the slices should be sorted based on the slice location parameter(Z-axis). Otherwise, the labels will not match correctly to the images
+<h4>IMPORTANT:</h4> Slices should be sorted based on the slice location parameter (Z-axis) which is accessible through DICOM files. In other words, the order of the .dcm files of a patient isn't necessarily the correct order of slices and the slices should be sorted based on the slice location parameter(Z-axis). Otherwise, the labels will not match correctly to the images
 <br>A sample of the function responsible of reading and sorting the slices can be found in the 'statistical_analysis.py' file.
 
 ## Technical Validation
