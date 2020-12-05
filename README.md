@@ -33,7 +33,9 @@ Normal subjects are placed in separate folders, within which patients are arrang
   * Normal subjects
     * Subject-ID
       * Slice-ID.dcm
-  
+
+<b>NOTE:</b> The correct order of slices in a CT scan deosn't necessarily follow the order of the Slice-IDs. You need to sort slices based on the "slice location" parameter provided in the DICOM files when you are reading the data.
+<br>
 <img src="https://github.com/ShahinSHH/COVID-CT-MD/blob/main/Figures/slices.jpg" width="400" height="400" />
 
 ## Labels
@@ -47,7 +49,6 @@ Normal subjects are placed in separate folders, within which patients are arrang
   * 4 : Right Upper Lobe (RUL)
 
 <h4>IMPORTANT:</h4> Slices should be sorted based on the slice location parameter (Z-axis) which is accessible through DICOM files. In other words, the order of the .dcm files of a patient isn't necessarily the correct order of slices and the slices should be sorted based on the slice location parameter(Z-axis). Otherwise, the labels will not match correctly to the images
-<br>A sample of the function responsible of reading and sorting the slices can be found in the 'statistical_analysis.py' file.
 
 ## Technical Validation
 The longest time period between the scanner auto-calibration and the study in the COVID-CT-MD dataset is 1 day, which ensures calibrated and accurate performance of the scanning device. Furthermore, there is an annual thorough quality control that ensures the absence of ring artifacts in the acquired CT scans.
