@@ -50,6 +50,7 @@ Normal subjects are placed in separate folders, within which patients are arrang
 
 <h4>IMPORTANT:</h4> While reading DICOM files, note that the correct order of slices in a CT scan doesn’t necessarily follow the order of the Slice-IDs. It’s recommended to use the slice location value to sort the slices. Otherwise, the labels will not match correctly to the images.
 The “Slice Location” value is stored in DICOM files and is accessible through the following DICOM tag:
+<br>
 (0020,1041) - DS - Slice Location
 
 ## Technical Validation
