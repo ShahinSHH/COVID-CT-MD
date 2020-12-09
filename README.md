@@ -35,6 +35,9 @@ Normal subjects are placed in separate folders, within which patients are arrang
       * Slice-ID.dcm
 
 <b>NOTE:</b> The correct order of slices in a CT scan doesn't necessarily follow the order of the Slice-IDs. You need to sort slices based on the "slice location" parameter provided in the DICOM files when you are reading the data.
+The “Slice Location” value is stored in DICOM files and is accessible through the following DICOM tag:
+<br>
+(0020,1041) - DS - Slice Location
 <br>
 <img src="https://github.com/ShahinSHH/COVID-CT-MD/blob/main/Figures/slices.jpg" width="400" height="400" />
 
