@@ -48,7 +48,9 @@ Normal subjects are placed in separate folders, within which patients are arrang
   * 3 : Right Middle Lobe (RML)
   * 4 : Right Upper Lobe (RUL)
 
-<h4>IMPORTANT:</h4> Slices should be sorted based on the "slice location" parameter (Z-axis) which is accessible through DICOM files. In other words, the order of the .dcm files of a patient isn't necessarily the correct order of slices and the slices should be sorted based on the slice location parameter(Z-axis). Otherwise, the labels will not match correctly to the images.
+<h4>IMPORTANT:</h4> While reading DICOM files, note that the correct order of slices in a CT scan doesn’t necessarily follow the order of the Slice-IDs. It’s recommended to use the slice location value to sort the slices. Otherwise, the labels will not match correctly to the images.
+The “Slice Location” value is stored in DICOM files and is accessible through the following DICOM tag:
+(0020,1041) - DS - Slice Location
 
 ## Technical Validation
 The longest time period between the scanner auto-calibration and the study in the COVID-CT-MD dataset is 1 day, which ensures calibrated and accurate performance of the scanning device. Furthermore, there is an annual thorough quality control that ensures the absence of ring artifacts in the acquired CT scans.
