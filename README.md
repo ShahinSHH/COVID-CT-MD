@@ -1,15 +1,21 @@
 # COVID-CT-MD
 <h4>A COVID-19 CT Scan Dataset Applicable in Machine Learning and Deep Learning</h4>
 
-The COVID-CT-MD dataset contains volumetric chest CT scans (DICOM files) of <b>169 patients positive for COVID-19 infection, 60 patients with CAP (Community Acquired Pneumonia), and 76 normal patients</b>. COVID-19 cases are collected from February 2020 to April 2020, whereas CAP cases and normal cases are collected from April 2018 to December 2019 and January 2019 to May 2020, respectively. Diagnosis of COVID-19 infection is based on positive real-time Reverse Transcription Polymerase Chain Reaction (rRT-PCR) test results, clinical parameters, and CT scan manifestations identified by three experienced thoracic radiologists. Diagnosis for CAP and normal cases was confirmed using clinical laboratory tests, and CT scans.
-A subset of 54 COVID-19, and 25 CAP cases were analyzed by the radiologists to identify and label slices with evidence of infection. The labeled subset of the data contains <b>4,993 number of slices demonstrating infection and 18,416 number of slices without infection.</b>
+The COVID-CT-MD dataset contains volumetric chest CT scans (DICOM files) of <b>169 patients positive for COVID-19 infection, 60 patients with CAP (Community Acquired Pneumonia), and 76 normal patients</b>.  Diagnosis of COVID-19 infection is based on positive real-time Reverse Transcription Polymerase Chain Reaction (rRT-PCR) test results, clinical parameters, and CT scan manifestations identified by three experienced thoracic radiologists. Diagnosis for CAP and normal cases was confirmed using clinical laboratory tests, and CT scans.
+A subset of 54 COVID-19, and 25 CAP cases were analyzed by the radiologists to identify and label slices with evidence of infection. The labeled subset of the data contains <b>4,957 number of slices demonstrating infection and 18,392 number of slices without the evidence of infection.</b>
+<br> We're working closely with our collaborators in medical centers to provide more number of CT scans to introduce a larger Multi-Centre COVID-19 dataset to be used for a more extensive area of research. This dataset will be available for the public use in the near future.
 
+## Links
 COVID-CT-MD dataset is accessible through Figshare: <a href="https://figshare.com/s/c20215f3d42c98f09ad0">https://figshare.com/s/c20215f3d42c98f09ad0</a>
 To access the associated clinical data and the labels from all three radiologists you can refer to the above link.
 
 The detailed desription of the dataset is available at <a href="https://www.nature.com/articles/s41597-021-00900-3">https://www.nature.com/articles/s41597-021-00900-3</a>
 
-To respect the patients’ privacy and comply with the DICOM supplement 142 (Clinical Trial De-identification Profiles), all the CT studies in our dataset have been de-identified and only gender and age of the patients are preserved in the dataset. The brief distribution of the COVID-CT-MD dataset is shown in the following table:
+## Suplementary Information
+
+* <b>Collection Dates:</b> COVID-19 cases are collected from February 2020 to April 2020, whereas CAP cases and normal cases are collected from April 2018 to December 2019 and January 2019 to May 2020, respectively.
+* <b>De-Identification:</b> To respect the patients’ privacy and comply with the DICOM supplement 142 (Clinical Trial De-identification Profiles), all the CT studies in our dataset have been de-identified and only gender and age of the patients are preserved in the dataset. 
+* <b>Data Distribution:</b> The brief distribution of the COVID-CT-MD dataset is shown in the following table:
 
 | Table | Cases | Sex | Age(year) |
 | ----- | ---------------- | ------- | --- |
@@ -17,7 +23,6 @@ To respect the patients’ privacy and comply with the DICOM supplement 142 (Cli
 | CAP | 60 | 35 M/25 F | 57.7 ± 21.7 |
 | Normal | 76 | 40 M/36 F | 43.4 ± 14.1 |
 
-We're working closely with our collaborators in medical centers to provide more number of CT scans to introduce a larger Multi-Centre COVID-19 dataset to be used for a more extensive area of research. This dataset will be available for the public use in the near future.
 
 ## Data Structure and Sample
 <b>A small sample of the dataset</b> is available in the "Sample data" folder including DICOM files of one patient in each category to provide a quick insight of the dataset.
@@ -58,12 +63,9 @@ The “Slice Location” value is stored in DICOM files and is accessible throug
 <br>
 (0020,1041) - DS - Slice Location
 
-## Technical Validation
-The longest time period between the scanner auto-calibration and the study in the COVID-CT-MD dataset is 1 day, which ensures calibrated and accurate performance of the scanning device. Furthermore, there is an annual thorough quality control that ensures the absence of ring artifacts in the acquired CT scans.
-
 ## Statistical Analysis
-<i>"statistical_analysis.py"</i> is the code to re-produce the statistical analysis provided in the <a href="https://arxiv.org/abs/2009.14623">data description</a>.
-
+<i>"statistical_analysis.py"</i> is the code to re-produce the statistical analysis provided in the <a href="https://www.nature.com/articles/s41597-021-00900-3#Sec11">data description</a>.
+<br> Please note that your Python directory should be set to the folder where you store the downloaded pacakge.
 <h4>Requirements:</h4>
 
 * pydicom
