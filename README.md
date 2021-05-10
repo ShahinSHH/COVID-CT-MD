@@ -68,7 +68,7 @@ The “Slice Location” value is stored in DICOM files and is accessible throug
 <br> Please note that your Python directory should be set to the folder where you store the downloaded pacakge.
 <h4>Requirements:</h4>
 
-* pydicom
+* pydicom (<a href="https://pydicom.github.io/pydicom/stable/tutorials/installation.html">Installation<a/>)
 * pandas
 * seaborn
 * tempfile
