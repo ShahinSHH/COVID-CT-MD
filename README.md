@@ -11,6 +11,14 @@ To access the associated clinical data and the labels from all three radiologist
 
 The detailed desription of the dataset is available at <a href="https://www.nature.com/articles/s41597-021-00900-3">https://www.nature.com/articles/s41597-021-00900-3</a>
 
+## UPDATE 1 (Sep 8, 2021)
+After further review of two cases (P001 and P006), our team has decided to update the labels associated with them.
+Updated labels can be accessed through the following files:
+* Slice-level-labels-updated-1.npy
+* Lobe-level-labels-updated-1.npy
+
+While the updated files contain more accurate lobe-level and slice-level labels, DL models developed based on the original version of the labels (Slice-level-labels, Lobe-level-labels) and those developed based on the updated ones don't show a significant difference as the changes are minor.
+
 ## Suplementary Information
 
 * <b>Collection Dates:</b> COVID-19 cases are collected from February 2020 to April 2020, whereas CAP cases and normal cases are collected from April 2018 to December 2019 and January 2019 to May 2020, respectively.
