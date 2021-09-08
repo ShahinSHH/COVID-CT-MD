@@ -33,7 +33,7 @@ While the updated files contain more accurate lobe-level and slice-level labels 
 
 
 ## Data Structure and Sample
-<b>A small sample of the dataset</b> is available in the "Sample data" folder including DICOM files of one patient in each category to provide a quick insight of the dataset.
+<b>A small sample of the dataset</b> is available in the "Sample data" folder including DICOM files of two patients in each category to provide a quick insight into the dataset.
 
 The hierarchical list below shows the structure of the COVID-CT-MD dataset shared through Figshare . COVID-19, CAP and
 Normal subjects are placed in separate folders, within which patients are arranged in folders, followed by CT scan slices in DICOM format.
