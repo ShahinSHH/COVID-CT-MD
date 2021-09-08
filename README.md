@@ -17,7 +17,7 @@ Updated labels can be accessed through the following files:
 * Slice-level-labels-updated-1.npy
 * Lobe-level-labels-updated-1.npy
 
-While the updated files contain more accurate lobe-level and slice-level labels, DL models developed based on the original version of the labels (Slice-level-labels, Lobe-level-labels) and those developed based on the updated ones don't show a significant difference as the changes are minor.
+While the updated files contain more accurate lobe-level and slice-level labels for two cases, DL models developed based on the original version of the labels (Slice-level-labels, Lobe-level-labels) and those developed based on the updated ones don't show a significant difference as the changes are minor.
 
 ## Suplementary Information
 
