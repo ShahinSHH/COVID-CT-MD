@@ -6,7 +6,7 @@ A subset of 54 COVID-19, and 25 CAP cases were analyzed by the radiologists to i
 <br> We're working closely with our collaborators in medical centers to provide more number of CT scans to introduce a larger Multi-Centre COVID-19 dataset to be used for a more extensive area of research. This dataset will be available for the public use in the near future.
 
 ## Links
-COVID-CT-MD dataset is accessible through Figshare: <a href="https://figshare.com/s/c20215f3d42c98f09ad0">https://figshare.com/s/c20215f3d42c98f09ad0</a>
+COVID-CT-MD dataset is accessible through <a href="https://figshare.com/collections/COVID-CT-MD_COVID-19_Computed_Tomography_CT_Scan_Dataset_Applicable_in_Machine_Learning_and_Deep_Learning/5129081">Figshare</a>.
 To access the associated clinical data and the labels from all three radiologists you can refer to the above link.
 
 The detailed desription of the dataset is available at <a href="https://www.nature.com/articles/s41597-021-00900-3">https://www.nature.com/articles/s41597-021-00900-3</a>
